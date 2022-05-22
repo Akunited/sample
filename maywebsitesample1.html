@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>may project sample one</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="5">
+	<style type="text/css">
+
+		.clr{
+			clear: both;
+		}
+		h2{
+			color: #fff;
+			background: #000;
+			text-align: center;
+			padding: 20px;
+			margin-bottom: 0;
+
+		}
+		.container{
+			text-align: center;
+			background: coral;
+			min-width: 100%;
+			min-height: auto;
+			margin: auto;
+
+
+		}
+		.navbar li{
+			display: inline;
+			padding: 2em;
+			font-size: 1.5em;
+		}
+		.navbar ul{
+			list-style: none;
+		}
+		.navbar a{
+			text-decoration: none;
+			color: #000;
+		}
+		.navbar a:hover{
+			color: white;
+		}
+		.showcase{
+			min-width: 99%;
+			min-height: auto;
+			background: url("images/bg.jpg");
+			background-size: cover;
+			font-size: 1.6em;
+			line-height: 1.6em;
+			margin-top: -25px;	
+			padding:0 10px;		
+		}
+		.news{
+			border: 1px solid #ccc;
+			font-size: 25px;
+			width:70%;
+			float: left;
+			padding: 45px 25px;
+			box-sizing: border-box;
+
+		}
+
+		.aside{
+			border: 1px solid #ccc;
+			font-size: 25px;
+			width:30%;
+			float: right;
+			padding: 15px;
+			box-sizing: border-box;
+			background:#00ffff;
+		}
+		
+		
+
+		#main-footer{
+			font-weight: bold;
+			color: #fff;
+			background-color: #000;
+			text-align: center;
+			font-size: 1.3em;
+			font-family: courier;
+
+		}
+
+		@media(max-width:600px){
+			
+			.news{
+				width: 100%;
+				float: none;
+			}
+
+			.aside{
+				width: 100%;
+				float: none;
+			}
+		}
+
+		.section-2{
+			margin-top: -27px;
+
+		}
+
+		.section-2 h2{
+			background: red;
+		}
+	</style>
+
+	<script type="text/javascript">
+
+		function Greet(){
+
+			console.log("Hello World");
+		}
+		Greet();
+
+		function addNum(a, b){
+			console.log(a + b);
+		}
+		addNum(5,7);
+
+
+	</script>
+</head>
+<body>
+	<header class="container">
+		<h2>JAVASCRIPT LEARNING</h2>
+		<nav class="navbar">
+			<ul>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Branches</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="showcase">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+
+	<section class="section-2">
+	<div class="news">
+		<h2>News/Information</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+	<div class="aside">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+		</p>
+	</div>
+
+	</section>
+	<div class="clr"></div>
+	<footer id="main-footer">
+		<p>
+			&copy; 2022 New Age Praxis Consulting
+		</p>
+	</footer>
+</body>
+</html>
